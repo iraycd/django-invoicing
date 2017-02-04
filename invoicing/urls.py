@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, url
 
-from views import InvoiceDetailView
+from .views import InvoiceDetailView
 
 
 urlpatterns = patterns('',
